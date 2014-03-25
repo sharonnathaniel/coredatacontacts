@@ -21,6 +21,9 @@
 		2CA8327A18E15BA7004C294E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CA8325C18E15BA7004C294E /* UIKit.framework */; };
 		2CA8328218E15BA7004C294E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2CA8328018E15BA7004C294E /* InfoPlist.strings */; };
 		2CA8328418E15BA7004C294E /* coredatacontactsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA8328318E15BA7004C294E /* coredatacontactsTests.m */; };
+		2CA8328F18E183A3004C294E /* CDCVDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA8328E18E183A3004C294E /* CDCVDetailsViewController.m */; };
+		2CA8329218E183B9004C294E /* CDCVAddContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA8329118E183B9004C294E /* CDCVAddContactViewController.m */; };
+		2CA8329518E18BA2004C294E /* CDCVCustomSeque.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA8329418E18BA2004C294E /* CDCVCustomSeque.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,12 @@
 		2CA8327F18E15BA7004C294E /* coredatacontactsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "coredatacontactsTests-Info.plist"; sourceTree = "<group>"; };
 		2CA8328118E15BA7004C294E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2CA8328318E15BA7004C294E /* coredatacontactsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = coredatacontactsTests.m; sourceTree = "<group>"; };
+		2CA8328D18E183A3004C294E /* CDCVDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDCVDetailsViewController.h; sourceTree = "<group>"; };
+		2CA8328E18E183A3004C294E /* CDCVDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDCVDetailsViewController.m; sourceTree = "<group>"; };
+		2CA8329018E183B9004C294E /* CDCVAddContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDCVAddContactViewController.h; sourceTree = "<group>"; };
+		2CA8329118E183B9004C294E /* CDCVAddContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDCVAddContactViewController.m; sourceTree = "<group>"; };
+		2CA8329318E18BA2004C294E /* CDCVCustomSeque.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDCVCustomSeque.h; sourceTree = "<group>"; };
+		2CA8329418E18BA2004C294E /* CDCVCustomSeque.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDCVCustomSeque.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +124,14 @@
 				2CA8326718E15BA7004C294E /* CDCVAppDelegate.h */,
 				2CA8326818E15BA7004C294E /* CDCVAppDelegate.m */,
 				2CA8326A18E15BA7004C294E /* Main.storyboard */,
+				2CA8329318E18BA2004C294E /* CDCVCustomSeque.h */,
+				2CA8329418E18BA2004C294E /* CDCVCustomSeque.m */,
 				2CA8326D18E15BA7004C294E /* CDCVViewController.h */,
 				2CA8326E18E15BA7004C294E /* CDCVViewController.m */,
+				2CA8328D18E183A3004C294E /* CDCVDetailsViewController.h */,
+				2CA8328E18E183A3004C294E /* CDCVDetailsViewController.m */,
+				2CA8329018E183B9004C294E /* CDCVAddContactViewController.h */,
+				2CA8329118E183B9004C294E /* CDCVAddContactViewController.m */,
 				2CA8327018E15BA7004C294E /* Images.xcassets */,
 				2CA8325F18E15BA7004C294E /* Supporting Files */,
 			);
@@ -251,8 +266,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CA8326918E15BA7004C294E /* CDCVAppDelegate.m in Sources */,
+				2CA8329218E183B9004C294E /* CDCVAddContactViewController.m in Sources */,
 				2CA8326F18E15BA7004C294E /* CDCVViewController.m in Sources */,
 				2CA8326518E15BA7004C294E /* main.m in Sources */,
+				2CA8329518E18BA2004C294E /* CDCVCustomSeque.m in Sources */,
+				2CA8328F18E183A3004C294E /* CDCVDetailsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CDCVViewController : UIViewController
+@interface CDCVViewController : UITableViewController
 
 @end
